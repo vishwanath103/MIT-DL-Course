@@ -45,4 +45,6 @@
   * GAN are a way to make a generative model by having two neural networks compete with each other
     * The **generator** turns noise into an imitation of the data to try to trick the discriminator
     * The **discriminator** tries to identify real data from fakes created by the generator
-  
+  * CycleGAN: domain transformation
+    * data manifold X to data manifold Y
+    * Transforming speech
