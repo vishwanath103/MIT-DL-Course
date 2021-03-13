@@ -49,36 +49,36 @@
     * data manifold X to data manifold Y
     * Transforming speech
   
-  ## Lecture 5: Reinforcement Learning : Notes
+ ## Lecture 5: Reinforcement Learning : Notes
   * **Data:** state-action pairs
   * **Goal:** Maximize future rewards over many time steps
   * RL: Key Concepts
-   * **AGENT:** takes actions.
-   * **ENVIRONMENT:** the world in which the agent exists and operates
-   * **Action:** a move the agent can make in the environment.
-   * **Action Space:** the set of possible actions an agent can make in the evironment
-   * **Observations:** of the environment after taking actions.
-   * **State:** a situation which the agent perceives
-   * **Reward:** feebback that measures the success or failure of the agents action
-   * Total Reward and Discounted Total Reward
-   * **Q-function:** captures the expected total future reward an agent in state s can receive by executing a certain action a
+    * **AGENT:** takes actions.
+    * **ENVIRONMENT:** the world in which the agent exists and operates
+    * **Action:** a move the agent can make in the environment.
+    * **Action Space:** the set of possible actions an agent can make in the evironment
+    * **Observations:** of the environment after taking actions.
+    * **State:** a situation which the agent perceives
+    * **Reward:** feebback that measures the success or failure of the agents action
+    * Total Reward and Discounted Total Reward
+    * **Q-function:** captures the expected total future reward an agent in state s can receive by executing a certain action a
   * How to take actions given a Q-function?
-   * The agent needs a policy, to infer the best action to take at its state,s
-   * **Strategy:** the policy should choose an action that maximizes the future reward
+    * The agent needs a policy, to infer the best action to take at its state,s
+    * **Strategy:** the policy should choose an action that maximizes the future reward
   * Deep Reinforcement Learning Algorithms
-   * Value Learning: Q Learning
-   * Policy Learning; Phi learning
+    * Value Learning: Q Learning
+    * Policy Learning; Phi learning
   * Deep Q Networks
-   * ![image](https://user-images.githubusercontent.com/6136144/111029063-a2cb8980-8420-11eb-8ffb-b8726fb86ac4.png)
+    * ![image](https://user-images.githubusercontent.com/6136144/111029063-a2cb8980-8420-11eb-8ffb-b8726fb86ac4.png)
   * Downsides of Q-Learning
-   * **Complexity:** Cannot handle continuous action spaces
-   * **Flexibility:** Cannot learn stochastic policies
+    * **Complexity:** Cannot handle continuous action spaces
+    * **Flexibility:** Cannot learn stochastic policies
   * Policy Learning
-   * Directly optimize the policy
-   * **Policy Gradient:** Enables modeling of continuous action space, by outputing the mean and SD of the probability distribution
+    * Directly optimize the policy
+    * **Policy Gradient:** Enables modeling of continuous action space, by outputing the mean and SD of the probability distribution
   * Training Policy Gradients
-   * Intialize the agent
-   * Run a policy until termination
-   * Record all states, actions, rewards
-   * Decrease probability of actions that resulted in low reward
-   * Increase probability of actions that resulted in high reward
+    * Intialize the agent
+    * Run a policy until termination
+    * Record all states, actions, rewards
+    * Decrease probability of actions that resulted in low reward
+    * Increase probability of actions that resulted in high reward
