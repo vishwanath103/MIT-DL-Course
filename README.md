@@ -82,3 +82,12 @@
     * Record all states, actions, rewards
     * Decrease probability of actions that resulted in low reward
     * Increase probability of actions that resulted in high reward
+
+## Lecture 6: Deep Learning New Frontiers : Notes
+* Power of Neural Nets
+ * Universal Approximation Theorem
+* Limitations
+ * Rethinking Generalization: "Understanding Deep Neural Networks Requires Rethinking Generalization"
+ * Neural Networks as Function Approximators
+ * Deep Learning = Alchemy? --> Garbage in and Garbage out
+ * UNcertainity in Deep Learning
