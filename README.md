@@ -83,7 +83,7 @@
     * Decrease probability of actions that resulted in low reward
     * Increase probability of actions that resulted in high reward
 
-## Lecture 6: Deep Learning New Frontiers : Notes
+## Lecture 6: Deep Learning New Frontiers : Notes (not done)
 * Power of Neural Nets
  * Universal Approximation Theorem
 * Limitations
@@ -91,3 +91,11 @@
  * Neural Networks as Function Approximators
  * Deep Learning = Alchemy? --> Garbage in and Garbage out
  * UNcertainity in Deep Learning
+
+## Lecture 9: Deep CPCFG for Information Extraction : Notes
+* Document Intelligence: Information Extraction
+* Deep Learning Philosophy: End-to-End Training
+ * Treat it as a Parsing Problem
+  * 2D Parsing with Deep Neural Network
+  * Choose most probable parse tree
+ * Context Free Grammars
